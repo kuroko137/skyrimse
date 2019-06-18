@@ -788,9 +788,13 @@ groups:
       - *earlyLoadersGroup
       - *underridesGroup
 
+  - name: &racesGroup Races & Classes
+    description: 'A group for modules that modify character Races & Classes.'
+    after: [ default ]
+
   - name: &coreGroup Core Mods
     after:
-      - default
+      - *racesGroup
       - *landscapeGroup
 
   - name: &lowPriorityGroup Low Priority Overrides
