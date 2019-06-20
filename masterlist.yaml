@@ -800,9 +800,13 @@ groups:
     description: 'A group for modules that alter the Economy of the game.'
     after: [ *craftingGroup ]
 
+  - name: &perksGroup Skills & Perks
+    description: 'A group for modules that modify Skills and Perks or add new ones.'
+    after: [ *economyGroup ]
+
   - name: &coreGroup Core Mods
     after:
-      - *economyGroup
+      - *perksGroup
       - *landscapeGroup
 
   - name: &lowPriorityGroup Low Priority Overrides
