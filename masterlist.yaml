@@ -5099,7 +5099,6 @@ plugins:
     after:
       - 'BecomeKingofSkyrim.esp'
       - 'BetterQuestObjectives.esp'
-      - 'Complete Alchemy & Cooking Overhaul.esp'
       - 'Guard Dialogue Overhaul.esp'
       - 'Landscape Fixes For Grass Mods.esp'
       - 'MLU.esp'
@@ -5357,7 +5356,7 @@ plugins:
         util: 'SSEEdit v4.0.2'
   - name: 'Complete Alchemy & Cooking Overhaul.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/19924/' ]
-    group: *coreGroup
+    group: *craftingGroup
     req:
       - *SKSE
     inc:
@@ -6170,7 +6169,6 @@ plugins:
         name: '(SJG) OMEGA - The Modular Gameplay Overhaul'
     group: *coreGroup
     after:
-      - 'Complete Alchemy & Cooking Overhaul.esp'
       - 'Weapon AF.esp'
       - 'WACCF_Armor and Clothing Extension.esp'
       - 'Weapons Armor Clothing & Clutter Fixes.esp'
@@ -6474,7 +6472,6 @@ plugins:
       - 'https://bethesda.net/en/mods/skyrim/mod-detail/2980036'
     group: *coreGroup
     after:
-      - 'Complete Alchemy & Cooking Overhaul.esp'
       - 'Phenderix Magic Evolved.esp'
       - 'Phenderix Magic World.esp'
       - 'SAFO.esp'
