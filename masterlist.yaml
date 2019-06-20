@@ -5105,7 +5105,6 @@ plugins:
       - 'BetterQuestObjectives.esp'
       - 'Guard Dialogue Overhaul.esp'
       - 'Landscape Fixes For Grass Mods.esp'
-      - 'MLU.esp'
       - 'My Home Is Your Home.esp'
       - 'Ordinator - Perks of Skyrim.esp'
     tag:
@@ -6171,7 +6170,7 @@ plugins:
         name: 'Another Sorting Mod - MLU.esp Replacer'
       - link: 'https://www.nexusmods.com/skyrimspecialedition/mods/17653/'
         name: '(SJG) OMEGA - The Modular Gameplay Overhaul'
-    group: *coreGroup
+    group: *economyGroup
     after:
       - 'Weapon AF.esp'
       - 'WACCF_Armor and Clothing Extension.esp'
@@ -6481,8 +6480,6 @@ plugins:
       - 'SAFO.esp'
       - 'Undeath.esp'
       - 'Weapons Armor Clothing & Clutter Fixes.esp'
-      # For Group, to avoid cyclic errors
-      - 'MLU.esp'
     inc:
       - 'ScopedBows_EagleEyeTweak.esp'
       - 'PerkusMaximus_Mage.esp'
