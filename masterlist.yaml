@@ -5110,7 +5110,6 @@ plugins:
       - 'Guard Dialogue Overhaul.esp'
       - 'Landscape Fixes For Grass Mods.esp'
       - 'My Home Is Your Home.esp'
-      - 'Ordinator - Perks of Skyrim.esp'
     tag:
       - C.Location
       - Names
@@ -6477,7 +6476,7 @@ plugins:
     url:
       - 'https://www.nexusmods.com/skyrimspecialedition/mods/1137/'
       - 'https://bethesda.net/en/mods/skyrim/mod-detail/2980036'
-    group: *coreGroup
+    group: *perksGroup
     after:
       - 'Phenderix Magic Evolved.esp'
       - 'Phenderix Magic World.esp'
