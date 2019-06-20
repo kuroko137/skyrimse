@@ -6701,6 +6701,7 @@ plugins:
     after:
       - 'Complete Alchemy & Cooking Overhaul.esp'
       - 'DVA - Dynamic Vampire Appearance.esp'
+      - 'RaceCompatibilityUSKPOverride.esp'
       - 'Requiem.esp'
       - 'Volkihar Knight.esp'
       - 'YOT - Your Own Thoughts.esp'
