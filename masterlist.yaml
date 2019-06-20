@@ -792,9 +792,13 @@ groups:
     description: 'A group for modules that modify character Races & Classes.'
     after: [ default ]
 
+  - name: &craftingGroup Crafting
+    description: 'A group for modules that modify or expand crafting systems such as Alchemy, or Smithing.'
+    after: [ *racesGroup ]
+
   - name: &coreGroup Core Mods
     after:
-      - *racesGroup
+      - *craftingGroup
       - *landscapeGroup
 
   - name: &lowPriorityGroup Low Priority Overrides
