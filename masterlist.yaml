@@ -6690,7 +6690,7 @@ plugins:
         util: 'SSEEdit v3.3.6'
   - name: 'Sacrosanct - Vampires of Skyrim.esp'
     url: [ 'https://www.nexusmods.com/skyrimspecialedition/mods/3928' ]
-    group: *coreGroup
+    group: *racesGroup
     inc:
       - name: 'better vampires.esp'
         condition: 'active("better vampires.esp") and not active("BVandSacrosanct_Patch.esp")'
@@ -6701,14 +6701,11 @@ plugins:
     after:
       - 'Complete Alchemy & Cooking Overhaul.esp'
       - 'DVA - Dynamic Vampire Appearance.esp'
-      - 'Ordinator - Perks of Skyrim.esp'
       - 'Requiem.esp'
       - 'Volkihar Knight.esp'
       - 'YOT - Your Own Thoughts.esp'
       # For Group, to avoid cyclic errors
-      - 'Alternate Start - Live Another Life.esp'
       - 'Imperious - Races of Skyrim.esp'
-      - 'MLU.esp'
     tag:
       - Graphics
       - Names
