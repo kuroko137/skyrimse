@@ -785,12 +785,11 @@ groups:
 
   - name: default
     after:
-      - *earlyLoadersGroup
       - *underridesGroup
 
   - name: &racesGroup Races & Classes
     description: 'A group for modules that modify character Races & Classes.'
-    after: [ default ]
+    after: [ *earlyLoadersGroup ]
 
   - name: &craftingGroup Crafting
     description: 'A group for modules that modify or expand crafting systems such as Alchemy, or Smithing.'
@@ -822,6 +821,7 @@ groups:
     after: [ *lateLoadersGroup ]
 
   - name: &dispersedGroup Dispersed
+    after: [ default ]
 
   - name: &dynamicPatchGroup Dynamic Patches
     after:
